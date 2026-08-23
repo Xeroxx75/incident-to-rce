@@ -4,8 +4,6 @@
 
 The analysis starts from two suspicious TCP streams involving the service protocol. The protocol was intended to carry text commands, but the traces contain format-string probes, binary data, and a shell session.
 
-The public version keeps the reasoning and selected evidence while removing raw user data, credentials, and unnecessary terminal output.
-
 ## Trace chronology
 
 ### 1. Reconnaissance through `ECHO`
