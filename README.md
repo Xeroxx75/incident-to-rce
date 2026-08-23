@@ -59,12 +59,6 @@ These are related evidence, not byte-for-byte identical captures.
 | `evidence/` | Sanitized logs, GDB observations, and payload map |
 | `tests/` | Offline tests for parsing, calibration, and payload layout |
 
-## Provenance and scope
-
-This is a controlled educational scenario. The public material focuses on the investigation, reasoning, exploit construction, and remediation performed by Ibrahim Diallo. It does not claim the discovery of an unknown vulnerability in production software or professional vulnerability-research experience.
-
-The examples use sanitized names and values. Original credentials, user databases, VM files, compiled binaries, raw traces, and course material are intentionally excluded.
-
 ## Run the offline payload check
 
 ```bash
