@@ -1,6 +1,6 @@
 # Observed payload map
 
-This is a sanitized map of the application payload observed after the packet headers. It is intentionally not a raw PCAP or full packet dump.
+This is a sanitized map of the application payload observed after the packet headers.
 
 | Payload offset | Bytes or pattern | Meaning |
 | ---: | --- | --- |
