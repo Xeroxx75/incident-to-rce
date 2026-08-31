@@ -10,4 +10,4 @@ $8 = 0xffffd3d8 ""
 
 The two expressions resolve to the same address in the tested build. This is the concrete evidence for the boundary write reaching `msg.i`.
 
-The later debug trace also showed the write pointer reaching the saved return-address location after the low-byte calibration. These addresses are build-specific and are not presented as portable constants.
+The later debug trace also showed the write pointer reaching the saved return-address location after the low-byte calibration.
