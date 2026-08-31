@@ -38,14 +38,7 @@ flowchart LR
 
 The full exploit chain was tested end to end in the original controlled environment. The recorded run shows the leak, payload delivery, interactive shell, and command execution on the target service.
 
-The public repository is a cleaned publication of that work. Its payload builder, evidence, source excerpts, and claims are checked statically against the original code, traces, and logs. No new VM or network replay is performed as part of this publication.
-
-The repository distinguishes two artifacts:
-
-- the observed application payload from the captured stream, which is 214 bytes after the network headers;
-- the 215-byte payload produced by the tested Python reproduction script.
-
-These are related evidence, not byte-for-byte identical captures.
+The public repository is a cleaned publication of that work. Its payload builder, evidence, source excerpts, and claims are checked statically against the original code, traces, and logs. 
 
 ## Repository map
 
@@ -72,4 +65,3 @@ The live mode targets only an explicitly supplied controlled service:
 python3 exploit/exploit.py --host 192.0.2.10 --port 6000
 ```
 
-The address above is documentation-only. Use a target only when you own or are explicitly authorized to test it.
